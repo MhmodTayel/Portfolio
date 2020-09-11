@@ -699,6 +699,19 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0;
   }
+  #about-a .about-info {
+        grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+  }
+  #about-c .about-logos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  #about-c .about-logos img {
+    width: 90%;
+  }
   #main-footer {
     height: 7rem;
   }
